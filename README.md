@@ -1,7 +1,7 @@
 ## Creating an application to format json data.
 
 User can format and edit user's json data in the application. The updated json data will be saved in the local storage.
-Demo: https://github.com/KhangLeThanh/jsoneditor/
+Demo: https://khanglethanh.github.io/jsoneditor/
 
 Tech stacks: ReactJS, React Hook, Material UI
 
