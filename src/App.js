@@ -46,6 +46,9 @@ const App = () => {
     } catch (e) {
       console.error(e);
       setMessage("Your json data is invalid");
+      setTimeout(() => {
+        setMessage("");
+      }, 3000);
     }
     setUserInput("");
   };
@@ -56,16 +59,6 @@ const App = () => {
     setUserInput(event.target.value);
   };
 
-  const default_data = {
-    the: "men",
-    that: "landed",
-    on: "the",
-    moon: "were",
-    maybe: 2,
-    i: "think",
-    probably: ["neil armstrong", "buzz aldrin"],
-    am_i_right: true,
-  };
   return (
     <div className={classes.grid}>
       <Grid container spacing={3}>
@@ -121,16 +114,12 @@ const App = () => {
           </AppBar>
           {value === 0 && (
             <TabPanel>
-              <FormatJson
-                data={userInput === undefined ? default_data : json}
-              />
+              <FormatJson data={json} />
             </TabPanel>
           )}
           {value === 1 && (
             <TabPanel>
-              <EditorJson
-                json={userInput === undefined ? default_data : json}
-              />
+              <EditorJson json={json} />
             </TabPanel>
           )}
         </Grid>
