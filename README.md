@@ -15,7 +15,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-    Runs "npm install" to install all necessary dependencies into the node_modules/ directory
+Runs "npm install" to install all necessary dependencies into the node_modules/ directory
 
 ### `npm start`
 
