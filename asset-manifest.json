@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/KhangLeThanh/jsoneditor/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/KhangLeThanh/jsoneditor/static/js/main.2212d209.chunk.js",
-    "main.js.map": "/KhangLeThanh/jsoneditor/static/js/main.2212d209.chunk.js.map",
-    "runtime-main.js": "/KhangLeThanh/jsoneditor/static/js/runtime-main.718cdf6c.js",
-    "runtime-main.js.map": "/KhangLeThanh/jsoneditor/static/js/runtime-main.718cdf6c.js.map",
-    "static/js/2.e6d32d95.chunk.js": "/KhangLeThanh/jsoneditor/static/js/2.e6d32d95.chunk.js",
-    "static/js/2.e6d32d95.chunk.js.map": "/KhangLeThanh/jsoneditor/static/js/2.e6d32d95.chunk.js.map",
-    "index.html": "/KhangLeThanh/jsoneditor/index.html",
-    "precache-manifest.4f3754f2b3642a6f853ae2dd52153753.js": "/KhangLeThanh/jsoneditor/precache-manifest.4f3754f2b3642a6f853ae2dd52153753.js",
-    "service-worker.js": "/KhangLeThanh/jsoneditor/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/KhangLeThanh/jsoneditor/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e6d32d95.chunk.js.LICENSE.txt": "/KhangLeThanh/jsoneditor/static/js/2.e6d32d95.chunk.js.LICENSE.txt"
+    "main.css": "/jsoneditor/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/jsoneditor/static/js/main.25ea2ac8.chunk.js",
+    "main.js.map": "/jsoneditor/static/js/main.25ea2ac8.chunk.js.map",
+    "runtime-main.js": "/jsoneditor/static/js/runtime-main.a21920dc.js",
+    "runtime-main.js.map": "/jsoneditor/static/js/runtime-main.a21920dc.js.map",
+    "static/js/2.e6d32d95.chunk.js": "/jsoneditor/static/js/2.e6d32d95.chunk.js",
+    "static/js/2.e6d32d95.chunk.js.map": "/jsoneditor/static/js/2.e6d32d95.chunk.js.map",
+    "index.html": "/jsoneditor/index.html",
+    "precache-manifest.0f29909988ba1db2a9f25a638b6f35bc.js": "/jsoneditor/precache-manifest.0f29909988ba1db2a9f25a638b6f35bc.js",
+    "service-worker.js": "/jsoneditor/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/jsoneditor/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.e6d32d95.chunk.js.LICENSE.txt": "/jsoneditor/static/js/2.e6d32d95.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.718cdf6c.js",
+    "static/js/runtime-main.a21920dc.js",
     "static/js/2.e6d32d95.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2212d209.chunk.js"
+    "static/js/main.25ea2ac8.chunk.js"
   ]
 }
