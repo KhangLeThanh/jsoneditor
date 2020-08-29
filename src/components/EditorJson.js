@@ -4,20 +4,20 @@ import { JSONEditor } from "react-json-editor-viewer";
 export default function FormatJson({ json }) {
   const styles = {
     root: {
-        fontSize: 14,
-        margin: 5,
+      fontSize: 14,
+      margin: 5,
       fontFamily: "monospace",
       lineHeight: 1.25,
-      paddingTop:'2%'
+      paddingTop: "2%",
     },
     label: {
       color: "rgb(204, 0, 0)",
       fontWeight: "600",
-      marginBottom:'10px'
+      marginBottom: "10px",
     },
     value: {
       marginLeft: 10,
-      marginBottom:'15px'
+      marginBottom: "15px",
     },
     row: {
       display: "flex",
@@ -45,8 +45,6 @@ export default function FormatJson({ json }) {
     builtin: {
       color: "#00f",
     },
-    
-
   };
   const onJsonChange = (key, value, parent, data) => {
     localStorage.setItem("myJsonInLocalStorage", JSON.stringify(data));
